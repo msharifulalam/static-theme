@@ -1,0 +1,745 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ==========================================================================
+   St-Header
+   ========================================================================== */
+header#st-header {
+  background: none repeat scroll 0 0 #616161;
+  padding: 20px 0;
+}
+
+.logo > a {
+  outline: medium none;
+}
+.logo img {
+  width: 62%;
+}
+
+/* nav */
+/*.navbar-inverse .navbar-nav > li > a {
+  outline: medium none !important;
+  text-transform: uppercase;
+}*/
+.navbar-nav {
+  float: right;
+  margin: 23px 0 0;
+}
+.navbar {
+  border: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-toggle {
+  display: block;
+}
+.navbar-default {
+  background-color: #616161 !important;
+  border: 0 none;
+  border-radius: 0;
+}
+.navbar-inverse {
+  background-color: #616161 !important;
+  border: 0 none !important;
+}
+.navbar-header {
+  display: none;
+}
+/*.navbar-toggle {
+  margin-right: -76px;
+  margin-top: 22px;
+}*/
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  outline: medium none;
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/*.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  color: #777;
+  text-transform: uppercase;
+}*/
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 4px solid #E74C3C;
+
+  -webkit-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+
+
+
+/* ==========================================================================
+   St-Slider
+   ========================================================================== */
+.carousel-caption {
+  left: 15%;
+  padding-bottom: 50px;
+  right: 15%;
+}
+.foon > p {
+  color: #616161;
+  font-family: "Quicksand",sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 10%;
+}
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #9f9f9f;
+  height: 13px;
+  width: 13px;
+}
+.carousel-indicators .active {
+  background-color: #c4c4c4;
+  height: 15px;
+  width: 15px;
+}
+.carousel-control {
+  display: none;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width:100%;
+}
+
+
+/* ==========================================================================
+   St-Calltoaction
+   ========================================================================== */
+section#st-calltoaction {
+  background: none repeat scroll 0 0 #616161;
+  padding: 45px 0;
+}
+.call-left > h1 {
+  color: #fff;
+  font-family: roboto;
+  font-size: 36px;
+  font-weight: lighter;
+  letter-spacing: 0.3px;
+  line-height: 50px;
+  margin: 0;
+}
+.btn.btn-danger.bon {
+  background: none repeat scroll 0 0 #e74c3c;
+  border: medium none;
+  border-radius: 1px;
+  float: right;
+  padding: 15px 50px;
+  text-transform: uppercase;
+}
+
+
+
+/* ==========================================================================
+   Common Class
+   ========================================================================== */
+.container-fluid {
+  overflow: hidden;
+  padding: 0;
+}
+
+.common > h1 {
+  color: #616161;
+  font-family: "Quicksand",sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/* ==========================================================================
+   St-services
+   ========================================================================== */
+section#st-services {
+  background: none repeat scroll 0 0 #fff;
+  padding: 90px 0 30px;
+}
+.common.services-head > h1 {
+  margin-bottom: 70px;
+}
+.media > .pull-left {
+  margin-right: 20px;
+  margin-top: 2px;
+}
+.media-left.pull-left {
+  background: none repeat scroll 0 0 #616161;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}
+.media-left.pull-left{
+  -webkit-transition: background 0.3s linear 0s, border 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, border 0.3s linear 0s;
+  transition: background 0.3s linear 0s, border 0.3s linear 0s;
+}
+
+.media-left.pull-left:hover {
+  background: #fff;
+  border: 1px solid #616161;
+  -webkit-transition: background 0.3s linear 0s, border 0.3s linear 0s;
+  -o-transition: background 0.3s linear 0s, border 0.3s linear 0s;
+  transition: background 0.3s linear 0s, border 0.3s linear 0s;
+}
+.media-left.pull-left > a:hover{
+  color: #616161;
+  -webkit-transition: color 0.3s linear 0s;
+  -o-transition: color 0.3s linear 0s;
+  transition: color 0.3s linear 0s;
+}
+.media-left.pull-left > a {
+  color: #fff;
+  font-size: 32px;
+  outline: medium none;
+  -webkit-transition: color 0.3s linear 0s;
+  -o-transition: color 0.3s linear 0s;
+  transition: color 0.3s linear 0s;
+}
+.media-body {
+  padding-right: 12px;
+}
+.media-heading {
+  color: #616161;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.media-body > p {
+  color: #616161;
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: .5px;
+}
+article.medias {
+  margin-bottom: 60px;
+}
+
+/* ==========================================================================
+   St-Portfolio
+   ========================================================================== */
+section#st-portfolio {
+  background: none repeat scroll 0 0 #fff;
+  padding: 40px 0;
+}
+.common.portfolio-head > h1 {
+  margin-bottom: 80px;
+}
+.renter {
+  height: 350px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.renter:hover .pine-box-hide {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear 0s;
+  -o-transition: opacity 0.5s linear 0s;
+  transition: opacity 0.5s linear 0s;
+}
+.pine-box {
+  background: none repeat scroll 0 0 #e5e5e5;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  line-height: 350px;
+  width: 100%;
+}
+.pine-box-hide {
+  background: none repeat scroll 0 0 #e74c3c;
+  color: #fff;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding: 80px 80px 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  -webkit-transition: opacity 0.5s linear 0s;
+  -o-transition: opacity 0.5s linear 0s;
+  transition: opacity 0.5s linear 0s;
+}
+
+.hide-head > h1 {
+  font-size: 30px;
+  margin: 0 0 45px;
+}
+.hide-head > p {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 45px;
+}
+.btn.btn-danger.viewer {
+  border-color: #fff;
+  border-radius: 0;
+  padding: 17px 45px;
+  text-transform: uppercase;
+}
+
+.pad {
+  margin: 0 0 12px;
+  padding: 0 5px;
+}
+
+
+
+/* ==========================================================================
+   St-Stats
+   ========================================================================== */
+section#st-stats {
+  background: none repeat scroll 0 0 #fff;
+  padding: 60px 0 100px;
+}
+.common.stats > h1 {
+  margin-bottom: 65px;
+}
+.aligner {
+  text-align: center;
+}
+.aligner span {
+  color: #e74c3c;
+  font-size: 85px;
+  margin-top: 0;
+}
+.aligner > p {
+  color: #616161;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+/* ==========================================================================
+   St-Clients
+   ========================================================================== */
+section#st-clients {
+  background: none repeat scroll 0 0 #e5e5e5;
+  padding: 50px 0 40px;
+}
+.common.clients > h1 {
+  margin-bottom: 50px;
+}
+.size-img > a {
+  outline: medium none;
+}
+
+/* ==========================================================================
+   St-Contact
+   ========================================================================== */
+section#st-contact {
+  background: none repeat scroll 0 0 #fff;
+  padding: 90px 0 100px;
+}
+.common.contacts > h1 {
+  margin-bottom: 40px;
+}
+.common.contacts > p {
+  color: #616161;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Map */
+.map iframe {
+  width: 100%;
+  height: 320px;
+}
+
+/* Form */
+#form {
+  margin-top: 75px;
+  padding: 0 15%;
+  text-align: center;
+}
+input.form-control{
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+  height: 45px;
+  margin-bottom: 5px;
+}
+input.form-control, .form-control {
+  border-radius: 0;
+  color: #333;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+.form-control:focus {
+  border-color: #dfdfdf;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.btn.btn-danger.send {
+  border-radius: 0;
+  margin-top: 10px;
+  padding: 14px 64px;
+  text-transform: uppercase;
+}
+
+
+
+/* ==========================================================================
+   St-Footer
+   ========================================================================== */
+footer#st-footer {
+  background: none repeat scroll 0 0 #616161;
+  padding: 40px 0;
+}
+
+.center-way {
+  text-align: center;
+  color: #fff;
+}
+.ft-details {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  margin: 20px auto 22px;
+  width: 35%;
+}
+.ft-copy > p {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+
+/* ==========================================================================
+   
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Slider
+   ========================================================================== */
+.col-md-12.col-sm-12.col-xs-12.no-pad {
+  padding: 0 !important;
+}
+
+/* ==========================================================================
+   Owl Carousel
+   ========================================================================== */
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-item, .owl-item.active {
+  width: 100% !important;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

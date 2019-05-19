@@ -1,0 +1,542 @@
+
+/***********************************************************************************************/
+/*  Responsive/adaptive stuff */
+/***********************************************************************************************/
+@media only screen and (min-width: 1200px) and (max-width: 1260px){
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -2%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -2%;
+}
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5% !important;
+}
+.navbar {
+  margin: 15px 0;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.call-left > h1 {
+  color: #fff;
+  font-family: roboto;
+  font-size: 188%;
+}
+
+/* Portfolio */
+
+.pine-box {
+  line-height: 450px;
+}
+.renter, .pine-box, .pine-box-hide{
+  height: 450px;
+}
+
+.size-img > a > img {
+  width: 100% !important;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -1%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -1%;
+}
+.owl-item > .item > img {
+  width: 83% !important;
+  height: 80px;
+}
+
+
+
+}
+
+
+
+/** 980* 1280 **/
+@media only screen and (min-width: 960px) and (max-width: 991px){
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5% !important;
+}
+.navbar {
+  margin: 15px 0;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.call-left > h1 {
+  color: #fff;
+  font-family: roboto;
+  font-size: 188%;
+}
+
+/* Portfolio */
+
+.pine-box {
+  line-height: 450px;
+}
+.renter, .pine-box, .pine-box-hide{
+  height: 450px;
+}
+
+.size-img > a > img {
+  width: 100% !important;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -3%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -3%;
+}
+	
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and(max-width:959px){
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers)  800*1280 , 768*1024 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* St-Header */
+.navbar-nav > li > a {
+  font-size: 11px;
+  padding: 10px 12% !important;
+}
+.navbar-inverse .navbar-nav > li:last-child > a {
+  padding-right: 5px !important;
+}
+.logo img {
+  width: 100%;
+}
+.col-md-7.col-sm-8.col-xs-12.hans {
+  padding-left: 0;
+}
+.navbar-nav {
+  float: right;
+}
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+/* Portfolio */
+
+.pine-box {
+  line-height: 480px;
+}
+.renter, .pine-box, .pine-box-hide{
+  height: 480px;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 150px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 10%;
+  top: -10%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 10%;
+  top: -10%;
+}
+
+}
+/* All Mobile Sizes (devices and browser) 360*640 */
+@media only screen and (max-width: 767px) {
+	
+
+
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* St-Header */
+.logo {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+#shape {
+  margin-top: -4%;
+}
+/* Jason Nav  */
+.menu-main .navbar.navbar-default {
+  background: none repeat scroll 0 0 transparent !important;
+  padding: 0 0 0 6px !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: -5px !important;
+  z-index: 2000 !important;
+}
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  text-transform: uppercase !important;
+  color: #fff;
+}
+.navmenu-default, .navbar-default .navbar-offcanvas {
+  background-color: #616161;
+  border-color: #e7e7e7;
+}
+.navmenu-default .navmenu-nav > li > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-toggle {
+  background-color: #616161;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fa8072;
+}
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+  width:100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 15%;
+}
+
+/*#myNavmenu.navmenu-fixed-right {
+  left: 60% !important;
+  position: fixed;
+}*/
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+/* Services */
+
+.media-left.pull-left {
+  margin-left: 44%;
+}
+.media-body {
+  float: left;
+  padding-right: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+/* Calltoaction */
+.call-left > h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.call-right {
+  text-align: center;
+}
+.btn.btn-danger.bon {
+  float: none;
+  margin-top: 20px;
+}
+
+/* Portfolio */
+.pad {
+  padding: 0;
+}
+.pine-box {
+  line-height: 480px;
+}
+.renter, .pine-box, .pine-box-hide{
+  height: 480px;
+}
+.pine-box-hide {
+  padding: 80px 40px 30px;
+}
+
+
+/* Stats */
+.aligner {
+  margin-bottom: 30px;
+}
+
+/* Contact */
+#form {
+  padding: 0 8%;
+}
+
+/* Footer */
+.ft-logo > img {
+  width: 100%;
+}
+.ft-details {
+  width: 90%;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 100px !important;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 24%;
+  top: -15%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 24%;
+  top: -15%;
+}
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 320*480  */
+@media only screen and (max-width: 479px) {
+/* St-Header */
+.logo {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+#shape {
+  margin-top: -6%;
+}
+/* Jason Nav  */
+.menu-main .navbar.navbar-default {
+  background: none repeat scroll 0 0 transparent !important;
+  padding: 0 0 0 6px !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: -5px !important;
+  z-index: 2000 !important;
+}
+.navmenu-default .navmenu-nav > li > a, .navbar-default .navbar-offcanvas .navmenu-nav > li > a {
+  text-transform: uppercase !important;
+  color: #fff;
+}
+.navmenu-default, .navbar-default .navbar-offcanvas {
+  background-color: #616161;
+  border-color: #e7e7e7;
+}
+.navmenu-default .navmenu-nav > li > a:hover, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:hover, .navmenu-default .navmenu-nav > li > a:focus, .navbar-default .navbar-offcanvas .navmenu-nav > li > a:focus {
+  color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-toggle {
+  background-color: #616161;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fa8072;
+}
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+
+
+
+/* slider */
+.item {
+  height: 450px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  height: 100%;
+}
+.foon > p {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+
+
+
+/* Services */
+
+.media-left.pull-left {
+  margin-left: 37%;
+}
+.media-body {
+  float: left;
+  padding-right: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+/* Calltoaction */
+.call-left > h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.call-right {
+  text-align: center;
+}
+.btn.btn-danger.bon {
+  float: none;
+  margin-top: 20px;
+}
+
+/* Portfolio */
+.pad {
+  padding: 0;
+}
+.pine-box {
+  line-height: 480px;
+}
+.renter,.pine-box, .pine-box-hide{
+  height: 480px;
+}
+.pine-box-hide {
+  padding: 80px 20px 30px;
+}
+
+
+/* Stats */
+.aligner {
+  margin-bottom: 30px;
+}
+
+/* Contact */
+#form {
+  padding: 0 8%;
+}
+
+/* Footer */
+.ft-logo > img {
+  width: 100%;
+}
+.ft-details {
+  width: 90%;
+}
+
+/* Owl */
+.owl-item,  owl-item > .item {
+  height: 100px !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 24%;
+  top: -15%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: 24%;
+  top: -15%;
+}
+.owl-item > .item > img {
+  width: 80% !important;
+  height:100px;
+}
+
+}
+
+@media only screen and (min-width: 321px) {
+
+/*#myNavmenu.navmenu-fixed-right {
+  left: 60% !important;
+  position: fixed;
+}*/
+.navmenu, .navbar-offcanvas {
+  float: right !important;
+  min-width: 60% !important;
+  width: 60% !important;
+}
+.owl-item > .item > img {
+  width: 80% !important;
+  height:100px;
+}
+
+}
