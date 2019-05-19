@@ -36,8 +36,8 @@ $(document).ready(function(){
 	  $("#owl-demo").owlCarousel({
 	    navigation: true,
 	    navigationText: [
-	      "<i class='icon-chevron-left icon-white'></i>",
-	      "<i class='icon-chevron-right icon-white'></i>"
+	      "<i class='fas fa-chevron-left icon-white'></i>",
+	      "<i class='fas fa-chevron-right icon-white'></i>"
 	      ],
 	    beforeInit : function(elem){
 	      //Parameter elem pointing to $("#owl-demo")
